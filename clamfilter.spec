@@ -1,5 +1,5 @@
 Summary:	clamfilter - a small, efficient clamav content filter for Postfix
-Summary(pl):	clamfilter - ma造, lecz skuteczny filtr dla Postfixa
+Summary(pl):	clamfilter - ma造, lecz skuteczny filtr dla Postfiksa
 Name:		clamfilter
 Version:	0.5
 Release:	1
@@ -17,7 +17,7 @@ does is just a content filtering of messages passing via Postfix MTA
 thru clamav.
 
 %description -l pl
-To jest ma造, lecz efektywny filtr dla Postfixa. Jego zadaniem jest
+To jest ma造, lecz efektywny filtr dla Postfiksa. Jego zadaniem jest
 jedynie filtrowanie wiadomo軼i, kt鏎e przechodza poprzez MTA przez
 clamava.
 
@@ -25,13 +25,12 @@ clamava.
 %setup -q
 
 %build
-
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install clamfilter $RPM_BUILD_ROOT%{_bindir}
 
 %clean
@@ -39,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog MANIFEST  README
+%doc ChangeLog MANIFEST README
 %attr(755,root,root) %{_bindir}/*
