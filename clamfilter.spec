@@ -1,5 +1,5 @@
 Summary:	clamfilter - a small, efficient clamav content filter for Postfix
-Summary(pl.UTF-8):   clamfilter - mały, lecz skuteczny filtr dla Postfiksa
+Summary(pl.UTF-8):	clamfilter - mały, lecz skuteczny filtr dla Postfiksa
 Name:		clamfilter
 Version:	0.5
 Release:	1
