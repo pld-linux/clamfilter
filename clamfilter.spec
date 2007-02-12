@@ -1,5 +1,5 @@
 Summary:	clamfilter - a small, efficient clamav content filter for Postfix
-Summary(pl):	clamfilter - ma≥y, lecz skuteczny filtr dla Postfiksa
+Summary(pl.UTF-8):   clamfilter - ma≈Çy, lecz skuteczny filtr dla Postfiksa
 Name:		clamfilter
 Version:	0.5
 Release:	1
@@ -16,9 +16,9 @@ This is a small, efficient clamav content filter for Postfix. What is
 does is just a content filtering of messages passing via Postfix MTA
 thru clamav.
 
-%description -l pl
-To jest ma≥y, lecz efektywny filtr dla Postfiksa. Jego zadaniem jest
-jedynie filtrowanie wiadomo∂ci, ktÛre przechodza poprzez MTA przez
+%description -l pl.UTF-8
+To jest ma≈Çy, lecz efektywny filtr dla Postfiksa. Jego zadaniem jest
+jedynie filtrowanie wiadomo≈õci, kt√≥re przechodza poprzez MTA przez
 clamava.
 
 %prep
